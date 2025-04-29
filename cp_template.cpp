@@ -31,7 +31,6 @@
 #include <tuple>
 #include <unordered_map>
 #include <unordered_set>
-#include <pair>
 #include <vector>
 
 // <bits/stdc++.h>    ********** not available on macOS by default ***********
@@ -45,6 +44,8 @@ typedef pair<int, int> pii;
 typedef pair<ll, ll> pll;
 typedef vector<int> vi;
 typedef vector<ll> vll;
+typedef vector<vector<ll> > vvll;
+typedef vector<vector<int> > vvi; 
 
 // Loops and iteration
 #define all(v) v.begin(), v.end()
@@ -53,3 +54,4 @@ typedef vector<ll> vll;
 // Useful functions
 
 void	FastIO() {ios::sync_with_stdio(0); cin.tie(0);}
+
